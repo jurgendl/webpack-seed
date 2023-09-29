@@ -1,5 +1,5 @@
 import './styles.scss';
-import { Component } from './components/component';
+import { App } from './components/app';
 
-const component = new Component();
-component.init();
+const app = new App();
+app.init();
