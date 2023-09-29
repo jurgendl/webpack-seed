@@ -20,5 +20,6 @@
 	},
 	"exclude": [
 		"spec"
-	]
+	],
+	"esModuleInterop": true
 }

@@ -1,0 +1,1 @@
+export const modConst = 0;
