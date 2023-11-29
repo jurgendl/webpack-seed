@@ -8,7 +8,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/search-list.ts',
   mode: 'development', //none/development/production
   devtool: 'source-map',
   optimization: {
@@ -61,9 +61,9 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new CleanWebpackPlugin(),// to clean dist folder each time when webpack does a new build.
-    new HtmlWebpackPlugin({ // to generate index.html file from a template with scripts and styles tags.
-      template: './src/index.html',
-      filename: 'index.html'
+    new HtmlWebpackPlugin({ // to generate search-list.html file from a template with scripts and styles tags.
+      template: './src/search-list.html',
+      filename: 'search-list.html'
     }),
     new ForkTsCheckerWebpackPlugin(), // this plugin allows us to check typescript typings as a separate process. It will improve build performance
     new CopyPlugin({ // This plugin gives us the ability to copy the assets folder with its content to the dist folder
