@@ -1,10 +1,10 @@
-import { App } from "../src/components/app";
+import { WebpackSeedApp } from "../src/components/webpack-seed-app";
 
-let app: App;
+let app: WebpackSeedApp;
 
 describe('A suite is just a function', function () {
   beforeEach(() => {
-    app = new App();
+    app = new WebpackSeedApp();
   });
 
   it('2 x 2 === 4', function () {
