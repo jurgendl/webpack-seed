@@ -1,0 +1,9 @@
+after upgrading node:
+
+Error: Node Sass does not yet support your current environment: Windows 64-bit with Unsupported runtime (127)
+
+install visual studio code + workload C++ development for desktop apps + windows sdk
+
+npm rebuild node-sass
+
+will create node_modules\node-sass\vendor\win32-x64-127
