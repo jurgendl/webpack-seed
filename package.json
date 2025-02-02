@@ -1,5 +1,5 @@
 {
-	"name": "search-list",
+	"name": "webpack-seed",
 	"sideEffects": [
 		"**/*.css",
 		"**/*.scss"
